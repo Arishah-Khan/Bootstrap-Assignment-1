@@ -1,0 +1,485 @@
+@font-face {
+    font-family: "DM-Sans";
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-background {
+    background-color: #ffffff;
+}
+
+.bakery-logo {
+    width: 120px;
+    height: 120px;
+}
+
+.btn-custom {
+    color: #ffffff;
+    background-color: #5fcac7;
+    border-radius: 50px;
+
+}
+
+.color {
+    font-size: 16px;
+    font-family: "DM-Sans";
+    align-items: center;
+
+}
+
+.btn-custom:hover {
+    background-color: rgb(49, 146, 144);
+    color: #ffffff;
+}
+
+.list:hover {
+    border-bottom: 2px solid #5fcac7;
+
+}
+.diffrent{
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: 400%;
+    background-color: black;
+    background-blend-mode: overlay;
+
+}
+
+.slide-img {
+    width: 105%;
+}
+
+.bakery {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 50px;
+    font-family: "DM-Sans";
+}
+
+.hours {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "DM-Sans";
+    margin-top: 30px;
+}
+
+.orderbtn {
+    color: #ffffff;
+    background-color: #5fcac7;
+    font-family: "DM-Sans";
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.bakers{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.baker{
+    position: absolute;
+    bottom: 110px;
+    left: 100px;
+}
+.food {
+    font-size: 50px;
+    font-family: "DM-Sans", sans-serif;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.small_pastries {
+    font-size: 33px;
+    font-family: "DM-Sans", sans-serif;
+    color: #ffffff;
+    margin: 30px 0px 0px;
+    background-color: transparent;
+}
+
+.carousel-indicators li {
+    max-width: 10px;
+    width: 10px;
+    height: 10px;
+    max-height: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.carousel-indicators:active {
+    background-color: #ffffff;
+    margin: 0px 5px;
+}
+
+.slider {
+    width: 100%;
+}
+.slides{
+    position: relative;
+    width: 100%;
+}
+.captions{
+    background-color: transparent;
+    width: 50%;
+    height: 70%;
+}
+.position{
+    position: absolute;
+    bottom: 40px;
+    left:240px;
+}
+
+.image {
+    width: 170px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.cakes {
+    font-size: 22px;
+    font-family: "DM-Sans", sans-serif;
+    color: #4b4542;
+    padding: 25px 0px 0px 25px;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-family: "DM-Sans", sans-serif;
+    color: #4b4542;
+    margin: 0px 0px 15px;
+}
+
+.section {
+    background-color: #eeeeee;
+    padding: 96px 0px;
+}
+
+.block-inner {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 65px 20px 75px;
+}
+
+.background {
+    background-image: url(images/bakery12-3-1200x800.jpg);
+    background-color: rgba(84, 173, 170, 1);
+    background-blend-mode: overlay;
+    width: 100%;
+    padding: 96px 0px;
+}
+
+.magic-heading {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "DM-Sans";
+    text-align: center;
+    margin: 25px 0px 0px;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DM-Sans";
+    margin: 25px 0px 0px;
+}
+
+.discover-btn {
+    font-family: "DM-Sans";
+    font-size: 18px;
+    margin: 80px 7px 14px 7px;
+    border: 2px solid #ffffff;
+    width: 180px;
+    padding: 10px 2px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn:hover {
+    color: #5fcac7;
+}
+
+.discover-btn:hover {
+    background-color: #ffffff;
+    color: rgb(95, 202, 199);
+}
+
+.content {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.margin {
+    margin-top: 80px;
+}
+
+.creationcake {
+    width: 255px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 12px 10px;
+}
+
+.style {
+    margin: 50px 0px;
+    font-size: 42px;
+    font-family: "DM-Sans";
+    color: #4b4342;
+
+}
+
+.section {
+    padding-top: 64px;
+    background-color: #ffffff;
+}
+
+.pudding {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.recipe {
+    font-size: 42px;
+    font-family: "DM-Sans";
+    color: #4b4342;
+    padding: 30px 0px;
+
+}
+
+.ingredients {
+    font-size: 22px;
+    font-family: "DM-Sans";
+    color: #4b4342;
+
+}
+
+.ingredients-list {
+    font-size: 22px;
+    color: #4b4342;
+    text-align: center;
+
+}
+
+.ing {
+    background-color: #eeeeee;
+    padding-top: 64px;
+    padding-bottom: 140px;
+}
+
+.faces {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+
+}
+
+.remove {
+    border: none;
+    background-color: transparent;
+}
+
+.p,
+span {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DM-Sans";
+
+}
+
+.mixture {
+    background-image: url(images/bakery26-1200x800.jpg);
+    background-color: rgba(255, 145, 163, 0.7);
+    background-blend-mode: overlay;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.clients {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "DM-Sans";
+    text-align: center;
+    margin: 0px 0px 55px;
+}
+
+.table {
+    background-color: #ffffff;
+    padding: 80px 0px;
+}
+
+.special_cakes {
+    font-size: 42px;
+    font-family: "DM-Sans";
+    color: #4b4342;
+    padding: 0px 0px 20px 25px;
+
+}
+
+.title {
+    color: #919dab;
+    font-family: "DM-Sans";
+    font-size: 22px;
+    padding: 22px 0px 20px;
+}
+
+.h {
+    border-bottom: 2px solid rgba(32, 32, 32, 0.1);
+    padding: 22px 23px 20px;
+    font-family: "DM-Sans";
+    font-size: 16px;
+    color: #202020;
+}
+.content{
+    width: 100%;
+}
+
+.question {
+    color: #202020;
+    background-color: #f3f2f4;
+    width: 280px;
+    height: 242px;
+}
+
+#call {
+    color: #4b4342;
+    font-family: "DM-Sans";
+    font-size: 22px;
+    background-color: transparent;
+}
+
+#number {
+    color: #5fcac7;
+    font-family: "DM-Sans";
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.Subscribe_section {
+    background-image: url(images/bakery3-2-1200x800.jpg);
+    background-color: rgba(75,67, 66,0.8);
+    background-blend-mode: overlay;
+    padding: 96px 0px;
+    background-size: cover;
+}
+
+.sweet {
+    color: #ffffff;
+    font-size: 58px;
+    font-family: "DM-Sans";
+    text-align: center;
+}
+
+input {
+    border: 2px solid #ebeaed;
+    font-size: 20px;
+    color: rgba(255, 255, 255,1);
+    padding: 0px 25px;
+    border-radius: 60px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+}
+
+.subbtn {
+    color: #ffffff;
+    background-color: #71f3ef;
+    font-size: 20px;
+    font-family: "DM-Sans";
+    padding: 0px 40px;
+    border-radius: 50px;
+    width: 100%;
+    height: 65px;
+}
+
+.buttons {
+    padding: 0px 15px;
+}
+.placeholder {
+    margin: 70px 0px;
+    background-color: transparent;
+    color: #202020;
+}
+.followus{
+    color: #ffffff;
+    font-family: "DM-Sans";
+    font-size: 16px;
+    padding: 50px 0px 25px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.youtube{
+    margin: 0px 15px;
+}
+.fa-class{
+    border: 3px solid rgba(235, 234, 237,0.5);
+    border-radius: 50%;
+    padding: 8px;
+}
+.fa-class:hover{
+border: 3px solid white;
+}
+.footer{
+    background-color: #2a2a2a;
+    padding: 85px 0px 55px 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DM-Sans";
+}
+.one{
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 5px;
+
+}
+.orders{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.copy{
+    width: 60px;
+    height: 65px;
+    padding-bottom: 20px;
+}
+.copyrights{
+    padding-right: 30px;
+}
